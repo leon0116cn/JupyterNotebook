@@ -54,11 +54,3 @@ class HashHelper:
 
         return True
         
-
-if __name__ == "__main__":
-    message = 'hello world.'
-    # print(HashHelper.hash_with_sha256(message))
-    # print(HashHelper.hash_with_sha256(message, b64_encoded=False))
-
-    # print(HashHelper.hash_with_md5(message))
-    # print(HashHelper.hash_with_md5(message, encoded=False))
